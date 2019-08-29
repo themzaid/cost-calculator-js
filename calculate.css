@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.container {
+  width: 300px;
+  margin: 0.5rem 0;
+  color: #719e19;
+  /* border: 1px solid red; */
+}
+
+.input {
+  display: flex;
+  flex-direction: column !important;
+  max-width: 300px;
+  font-weight: 600;
+}
+
+.input h1 {
+  font-size: 1.5rem;
+}
+
+.input div {
+  margin: 1rem;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 35px;
+  border: 2px solid #719e19;
+  border-radius: 5px;
+  background: #fff;
+  margin: 0.5rem 0;
+  color: #719e19;
+  cursor: pointer;
+  transition: 150ms;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+button:hover {
+  background: #719e19;
+  color: #fff;
+  transition: 250ms;
+}
+
+.result {
+  /* border: 1px solid #719e19; */
+  background: #719e19;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0.5rem 0.8rem;
+}
+.result > p {
+  font-size: 14px;
+  font-weight: 600;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin: 0.2rem;
+  text-align: left;
+}
+
+input {
+  border: 2px solid #719e19;
+  border-radius: 5px;
+  height: 20px;
+}
+
+::placeholder {
+  color: #aaa;
+  padding: 0 2px;
+}
